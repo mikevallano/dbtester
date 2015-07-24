@@ -2,7 +2,7 @@ development:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: dbtester_development
+  database: dbswitcher_development
   pool:     5
   username:
   password:
@@ -30,7 +30,7 @@ test:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: dbtester
+  database: dbswitcher
   pool:     5
   username:
   password:
@@ -40,7 +40,7 @@ production:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: dbtester_production
+  database: dbswitcher_production
   pool:     5
   username:
   password:

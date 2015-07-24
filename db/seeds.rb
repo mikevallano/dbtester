@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-10.times do City.create(name: Faker::Address.city)
-end
+# 10.times do City.create(name: Faker::Address.city)
+# end
