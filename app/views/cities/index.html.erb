@@ -2,6 +2,13 @@
 
 <h1>Listing Cities</h1>
 
+<%= form_tag cities_path, method: :get do %>
+  <p>
+    <%= text_field_tag :keyword, params[:keyword] %>
+    <%= submit_tag "search", name: nil %>
+  </p>
+<% end %>
+
 <table>
   <thead>
     <tr>
